@@ -9,9 +9,25 @@
 ////////////////////////////////////////////////////////////
 // CLEAResize 1.0.0
 //   A Moiré-free Image Resizing Script for Photoshop
+//
 // History
 //   Ver. 1.0.0                                Sep. 06, 2015
 //      * Initial release
+//   Ver. 1.0.1                                Sep. 07, 2015
+//      * Licensed under CC0
+//
+// License
+//   CLEAResize.jsx is licensed under the Creative Commons
+//   CC0 1.0 Universal Public Domain Dedication.
+//
+//   CLEAResize.jsx by glassonion0323
+//   To the extent possible under law, the person who
+//   associated CC0 with CLEAResize.jsx has waived all
+//   copyright and related or neighboring rights to
+//   CLEAResize.jsx.
+//   You should have received a copy of the CC0 Public
+//   Domain Dedication along with this software. If not, see
+//   <http://creativecommons.org/publicdomain/zero/1.0/>.
 ////////////////////////////////////////////////////////////
 
 #target photoshop
