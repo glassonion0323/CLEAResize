@@ -12,7 +12,7 @@ Go to [Releases](https://github.com/glassonion0323/CLEAResize/releases) and down
 C:\\Program Files\\Adobe\\Adobe Photoshop CS5 (64 Bit)\\Presets\\Scripts
 2. Restart photoshop and choose File \> Automate. You will find CLEAResize added to the menu.
 
-# License
+## License
 CLEAResize.jsx is licensed under the Creative Commons CC0 1.0 Universal Public Domain Dedication.
 
 To the extent possible under law, the person who associated CC0 with CLEAResize has waived all copyright and related or neighboring rights to CLEAResize.  
