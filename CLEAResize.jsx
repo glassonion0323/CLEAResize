@@ -15,6 +15,8 @@
 //      * Initial release
 //   Ver. 1.0.1                                Sep. 07, 2015
 //      * Licensed under CC0
+//   Ver. 1.0.2                                Sep. 07, 2015
+//      * Fixed TEXT_VERSION
 //
 // License
 //   CLEAResize.jsx is licensed under the Creative Commons
@@ -40,7 +42,7 @@ $.localize = true;
 
 // Script name and the version
 const   TEXT_SCRIPT_NAME            = "CLEAResize";
-const   TEXT_VERSION                = "1.0.0";
+const   TEXT_VERSION                = "1.0.2";
 const   TEXT_NAME_AND_VERSION       = TEXT_SCRIPT_NAME + " " + TEXT_VERSION;
 
 // Captions
