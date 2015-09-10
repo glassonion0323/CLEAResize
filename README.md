@@ -1,7 +1,7 @@
 # CLEAResize
 A Moiré-free Image Resizing Script for Photoshop
 
-[日本語](https://github.com/glassonion0323/CLEAResize/blob/master/README.md)
+[日本語](https://github.com/glassonion0323/CLEAResize/blob/master/README.ja.md)
 
 ## Requirements
 Photoshop CS4 or later (Windows or Mac)
