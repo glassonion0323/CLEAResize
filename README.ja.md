@@ -12,10 +12,11 @@ Photoshop CS4以降 (Windows or Mac)
 ## インストール方法
 1. Photoshopが起動している場合はいったん終了し、CLEAResize.zip内のCLEAResize.jsxを以下のフォルダにコピーしてください。  
 *[Photoshopのインストール先ディレクトリ]/Presets/Scripts*  
-コピー時に警告が出た場合は、「続行」を選択してください。  
 例えば、Windows・64bit版CS5の場合は以下のフォルダになります。  
 C:\\Program Files\\Adobe\\Adobe Photoshop CS5 (64 Bit)\\Presets\\Scripts
+コピー時に警告が出た場合は、「続行」を選択してください。  
 2. Photoshopを起動すると、「ファイル」→「自動処理」メニュー内にCLEAResizeが追加されているはずです。
+<img alt="Photoshopのメニュー" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/clearesizemenu_ja.png" />
 
 ## 変更履歴
 * Ver. 1.0.2 (Sep. 07, 2015)  

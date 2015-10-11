@@ -12,10 +12,11 @@ Go to [the latest release page](https://github.com/glassonion0323/CLEAResize/rel
 ## Installation
 1. Exit Photoshop and copy CLEAResize.jsx in CLEAResize.zip to the following directory.  
 *[Photoshop installation directory]/Presets/Scripts*  
-If you get the message "Destination Folder Access Denied", click "Continue".  
 For example, if your Photoshop is 64 bit CS5 for Windows, the directory is as follows.  
 C:\\Program Files\\Adobe\\Adobe Photoshop CS5 (64 Bit)\\Presets\\Scripts
+If you get the message "Destination Folder Access Denied", click "Continue".  
 2. Restart photoshop and choose File \> Automate. You will find CLEAResize added to the menu.
+<img alt="Photoshop menu" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/clearesizemenu.png" />
 
 ## Change Log
 * Ver. 1.0.2 (Sep. 07, 2015)  
