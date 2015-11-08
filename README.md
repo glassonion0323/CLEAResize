@@ -59,7 +59,7 @@ Input the width, height, or ratio you want to resize to, and click OK.
 
 ### "Darker" option
 As you can see in examples above, CLEAResize retains colors of original images better than usual bicubic resizing.  
-This characteristic, however, can lead to a unexpectedly whiter result in some cases; For example, when resizing a printing halftone image, which each dots are reduced in area considering the effect of ink spreading (dot gain).  
+This characteristic, however, can lead to a unexpectedly whiter result in some cases; For example, when resizing a halftone artwork, which each dots are reduced in size on purpose to cancel out the influence of ink spreading during the printing process (dot gain).  
 By checking "Darker (simulate dot gain)" option, CLEAResize performs a simple simulation of dot gain to get darker result that resembles to the printout.  
 <img alt="Darker option" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/dvorak_comparison.png" />
 
