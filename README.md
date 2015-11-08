@@ -48,7 +48,20 @@ For example, if your Photoshop is 64 bit CS5 for Windows, the directory is as fo
 C:\\Program Files\\Adobe\\Adobe Photoshop CS5 (64 Bit)\\Presets\\Scripts  
 If you get the message "Destination Folder Access Denied", click "Continue".  
 2. Restart photoshop and choose File \> Automate. You will find CLEAResize added to the menu.
-<img alt="Photoshop menu" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/clearesizemenu.png" />
+<img alt="Photoshop menu" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/clearesizemenu.png" />  
+(CLEAResize will be grayed out if no documents are opened.)
+
+## How to Use
+Open a image that you want to resize with Photoshop and select CLEAResize from Files > Automate menu.  
+<img alt="The main window" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/clearesizedialog.png" />  
+The window above will appear.  
+Input the width, height, or ratio you want to resize to, and click OK.
+
+### "Darker" option
+As you can see in examples above, CLEAResize retains colors of original images better than usual bicubic resizing.  
+This characteristic, however, can lead to a unexpectedly whiter result in some cases; For example, in halftone image data (before printing), which each dots are reduced in area considering the effect of ink spreading (dot gain).  
+By checking "Darker (simulate dot gain)" option, CLEAResize performs a simple simulation of dot gain to get the darker result that resembles to the printed one.  
+<img alt="Darker option" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/dvorak_comparison.png" />
 
 ## Change Log
 * Ver. 1.0.2 (Sep. 07, 2015)  
