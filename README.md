@@ -3,6 +3,38 @@ A Moiré-free Image Resizing Script for Photoshop
 
 [日本語](https://github.com/glassonion0323/CLEAResize/blob/master/README.ja.md)
 
+## Examples
+
+### Claude Mellan's "The Sudarium of Saint Veronica" (1649)
+Downscaled to 20% of original image.  
+<img alt="The Sudarium of Saint Veronica" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/mellanface400compare.jpg" />
+
+### Zone plate
+Original 512x512  
+<img alt="Original 512x512" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/zoneplate.png" />  
+
+Downscaled 256x256 (bicubic)  
+<img alt="Downscaled 256x256 (bicubic)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/zoneplate_256_bicubic.png" />  
+
+Downscaled 256x256 (CLEAResize)  
+<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/zoneplate_256_clearesize.png" />  
+
+### Transition of checker and flat gray
+Original 512x512  
+<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker.png" />  
+
+Downscaled 290x290 (bicubic)  
+<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_290_moire.png" />  
+
+Downscaled 290x290 (CLEAResize)  
+<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_290_clearesize.png" />  
+
+Downscaled 145x145 (bicubic)  
+<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_145_bicubic.png" />  
+
+Downscaled 145x145 (CLEAResize)  
+<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_290_clearesize.png" />  
+
 ## Requirements
 Photoshop CS4 or later (Windows or Mac)
 
@@ -13,7 +45,7 @@ Go to [the latest release page](https://github.com/glassonion0323/CLEAResize/rel
 1. Exit Photoshop and copy CLEAResize.jsx in CLEAResize.zip to the following directory.  
 *[Photoshop installation directory]/Presets/Scripts*  
 For example, if your Photoshop is 64 bit CS5 for Windows, the directory is as follows.  
-C:\\Program Files\\Adobe\\Adobe Photoshop CS5 (64 Bit)\\Presets\\Scripts
+C:\\Program Files\\Adobe\\Adobe Photoshop CS5 (64 Bit)\\Presets\\Scripts  
 If you get the message "Destination Folder Access Denied", click "Continue".  
 2. Restart photoshop and choose File \> Automate. You will find CLEAResize added to the menu.
 <img alt="Photoshop menu" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/clearesizemenu.png" />
