@@ -21,19 +21,19 @@ Downscaled 256x256 (CLEAResize)
 
 ### Transition of checker and flat gray
 Original 512x512  
-<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker.png" />  
+<img alt="Original 512x512" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker.png" />  
 
 Downscaled 290x290 (bicubic)  
-<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_290_moire.png" />  
+<img alt="Downscaled 290x290 (bicubic)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_290_moire.png" />  
 
 Downscaled 290x290 (CLEAResize)  
-<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_290_clearesize.png" />  
+<img alt="Downscaled 290x290 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_290_clearesize.png" />  
 
 Downscaled 145x145 (bicubic)  
-<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_145_bicubic.png" />  
+<img alt="Downscaled 145x145 (bicubic)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_145_bicubic.png" />  
 
 Downscaled 145x145 (CLEAResize)  
-<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_290_clearesize.png" />  
+<img alt="Downscaled 145x145 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/graychecker_145_clearesize.png" />  
 
 ## Requirements
 Photoshop CS4 or later (Windows or Mac)
