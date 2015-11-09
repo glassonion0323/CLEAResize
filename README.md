@@ -64,9 +64,9 @@ By checking "Darker (simulate dot gain)" option, CLEAResize performs a simple si
 <img alt="Darker option" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/dvorak_comparison.png" />
 
 ## Limitations
-* This script can not remove moire that already exists before resizing.  
-* Though this script is suitable for making monitor displaying images from printing data, it is not fit to convert paper size of printing data to another one.  
-* This script can not avoid moire that occurs in Smart Objects. If you get moire in Smart Objects, rasterize them before executing CLEAResize.
+* CLEAResize can not remove moire that already exists before resizing.  
+* Though CLEAResize is suitable for making monitor displaying images from printing data, it is not fit to make printing halftone data resizing another halftone data.  
+* CLEAResize can not avoid moire that occurs in Smart Objects. If you get moire in Smart Objects, rasterize them before executing CLEAResize.
 
 ## Change Log
 * Ver. 1.0.2 (Sep. 07, 2015)  
