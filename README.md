@@ -59,9 +59,14 @@ Input the width, height, or ratio you want to resize to, and click OK.
 
 ### "Darker" option
 As you can see in examples above, CLEAResize retains colors of original images better than usual bicubic resizing.  
-This characteristic, however, can lead to a unexpectedly whiter result in some cases; For example, when resizing a halftone artwork, which each dots are reduced in size on purpose to cancel out the influence of ink spreading (dot gain) during the printing process.  
+This characteristic, however, can lead to a unexpectedly whiter result in some cases; for example, when resizing a halftone artwork, which each dots are reduced in size on purpose to cancel out the influence of ink spreading (dot gain) during the printing process.  
 By checking "Darker (simulate dot gain)" option, CLEAResize performs a simple simulation of dot gain to get darker result that resembles to the printout.  
 <img alt="Darker option" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/dvorak_comparison.png" />
+
+## Limitations
+* This script can not remove moire that already exists before resizing.  
+* Though this script is suitable for making monitor displaying images from printing data, it is not fit to convert paper size of printing data to another one.  
+* This script can not avoid moire that occurs in Smart Objects. If you get moire in Smart Objects, rasterize them before executing CLEAResize.
 
 ## Change Log
 * Ver. 1.0.2 (Sep. 07, 2015)  
