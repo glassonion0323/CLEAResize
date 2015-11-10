@@ -9,15 +9,15 @@ A Moiré-free Image Resizing Script for Photoshop
 Downscaled to 20% of original image.  
 <img alt="The Sudarium of Saint Veronica" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/mellanface400compare.jpg" />
 
-### Zone plate
-Original 512x512  
-<img alt="Original 512x512" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/zoneplate.png" />  
+### Concentric circles
+Original 600x600  
+<img alt="Original 600x600" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/concentric.png" />  
 
-Downscaled 256x256 (bicubic)  
-<img alt="Downscaled 256x256 (bicubic)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/zoneplate_256_bicubic.png" />  
+Downscaled 200x200 (bicubic)  
+<img alt="Downscaled 200x200 (bicubic)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/concentric_200_bicubic.png" />  
 
-Downscaled 256x256 (CLEAResize)  
-<img alt="Downscaled 256x256 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/zoneplate_256_clearesize.png" />  
+Downscaled 200x200 (CLEAResize)  
+<img alt="Downscaled 200x200 (CLEAResize)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/concentric_200_clearesize.png" />  
 
 ### Transition of checker and flat gray
 Original 512x512  
