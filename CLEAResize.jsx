@@ -7,7 +7,7 @@
 */
 
 ////////////////////////////////////////////////////////////
-// CLEAResize 1.0.0
+// CLEAResize 1.0.3
 //   A Moiré-free Image Resizing Script for Photoshop
 //
 // History
@@ -17,6 +17,11 @@
 //      * Licensed under CC0
 //   Ver. 1.0.2                                Sep. 07, 2015
 //      * Fixed TEXT_VERSION
+//   Ver. 1.0.3                                Mar. 19, 2016
+//      * Added blurring before downscaling.
+//        This blurring is so weak that downscaled images
+//        will seem to be nothing differrent in most cases,
+//        but it prevents moire effectively.
 //
 // License
 //   CLEAResize.jsx is licensed under the Creative Commons
@@ -42,7 +47,7 @@ $.localize = true;
 
 // Script name and the version
 const   TEXT_SCRIPT_NAME            = "CLEAResize";
-const   TEXT_VERSION                = "1.0.2";
+const   TEXT_VERSION                = "1.0.3";
 const   TEXT_NAME_AND_VERSION       = TEXT_SCRIPT_NAME + " " + TEXT_VERSION;
 
 // Captions
@@ -297,8 +302,10 @@ function showDialog() {
         if (newWidth < VALUE_MIN_SIZE) {
             newWidth        = VALUE_MIN_SIZE;
         }
+
         resizeStyles    = sizeDialog.optionGrp.resizeStylesChk.value;
         simulateDotGain = sizeDialog.optionGrp.simulateDotGainChk.value;
+
         if (newHeight != orgHeight || newWidth != orgWidth) {
             dialogReturn    = true;
         }
@@ -551,6 +558,7 @@ function execResize() {
         showAllLayers(doc);
     }
 
+    // Simple simulation of dot gain by blurring before color conversion
     if (simulateDotGain == true && sizeRatio < 1) {
         blurSize    = (1 / sizeRatio - 1) / 3.5;
         if (blurSize >= 0.1) {
@@ -571,6 +579,21 @@ function execResize() {
     }
     else {
         convertToLinearRGB();
+    }
+
+    // Blurring
+    // This blurring is so weak that downscaled images will seem to be nothing differrent in most cases,
+    // but it prevents moire effectively.
+    if (simulateDotGain == false && iterationNum > 1) {
+        blurSize    = 0.125 / sizeRatio;
+        if (blurSize > 250) {
+            blurSize    = 250;
+        }
+        for (searchCnt = 0; searchCnt < layerArray.length; searchCnt++) {
+            if (layerArray[ searchCnt ].obj.kind == LayerKind.NORMAL) {
+                layerArray[ searchCnt ].obj.applyGaussianBlur(blurSize);
+            }
+        }
     }
 
     uvHeight    = new UnitValue(0, "px");
