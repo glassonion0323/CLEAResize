@@ -69,6 +69,9 @@ By checking "Darker (simulate dot gain)" option, CLEAResize performs a simple si
 * CLEAResize can not avoid moiré that occurs in Smart Objects. If you get moiré in Smart Objects, rasterize them before executing CLEAResize.
 
 ## Change Log
+* Ver. 1.0.3 (Mar. 19, 2016)  
+Added blurring before downscaling.  
+This blurring is so weak that downscaled images will seem to be nothing differrent in most cases, but it prevents moire effectively.
 * Ver. 1.0.2 (Sep. 07, 2015)  
 Fixed TEXT_VERSION
 * Ver. 1.0.1 (Sep. 07, 2015)  
