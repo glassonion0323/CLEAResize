@@ -6,8 +6,11 @@
 ## 使用例
 
 ### クロード・メラン 「聖ヴェロニカの聖骸布」 (1649)
+オリジナル (部分)  
+<img alt="聖ヴェロニカの聖骸布 (部分)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/mellanface-portion.jpg" />  
+
 オリジナルの20%に縮小  
-<img alt="聖ヴェロニカの聖骸布" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/mellanface400compare.jpg" />
+<img alt="聖ヴェロニカの聖骸布 (縮小)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/mellanface400compare.jpg" />
 
 ### 同心円
 オリジナル 600x600  
