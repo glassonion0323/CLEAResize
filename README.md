@@ -6,8 +6,11 @@ A Moiré-free Image Resizing Script for Photoshop
 ## Examples
 
 ### Claude Mellan's "The Sudarium of Saint Veronica" (1649)
-Downscaled to 20% of original image.  
-<img alt="The Sudarium of Saint Veronica" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/mellanface400compare.jpg" />
+A portion of the original image.  
+<img alt="The Sudarium of Saint Veronica (portion)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/mellanface-portion.jpg" />  
+
+Downscaled to 20% of the original image.  
+<img alt="The Sudarium of Saint Veronica (downscaled)" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/mellanface400compare.jpg" />
 
 ### Concentric circles
 Original 600x600  
