@@ -63,9 +63,9 @@
     Change Log
 ----------------------------------------
   * Ver. 1.0.3 (Mar. 19, 2016)  
-    Added blurring before downscaling.
+    Added blurring before resizing to a smaller size than 1/4 of the original.
     This blurring is so weak that downscaled images will seem to be nothing
-    differrent in most cases, but it prevents moire effectively.
+    differrent in most cases, but it prevents moire on some images effectively.
   * Ver. 1.0.2 (Sep. 07, 2015)
     Fixed TEXT_VERSION
   * Ver. 1.0.1 (Sep. 07, 2015)
