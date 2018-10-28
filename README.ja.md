@@ -92,5 +92,5 @@ You should have received a copy of the CC0 Public Domain Dedication along with t
 
 ## 参考文献
 CLEAResizeは以下のページを参考に作成されました。
-* [Gamma error in picture scaling](http://www.4p8.com/eric.brasseur/gamma.html) Eric Brasseurさん (英語)
-* [Photoshop で【本当に】美しくリサイズする「ガンマ: 1.0 縮小法」 | 亜細亜ノ蛾](http://asiamoth.com/mt/archives/2011-02/19_2357.php) asiamothさん
+* [Gamma error in picture scaling](http://www.ericbrasseur.org/gamma.html) Eric Brasseurさん (英語)
+* [Photoshop で【本当に】美しくリサイズする「ガンマ: 1.0 縮小法」 | 亜細亜ノ蛾](https://asiamoth.com/201102192357/) asiamothさん

@@ -90,5 +90,5 @@ You should have received a copy of the CC0 Public Domain Dedication along with t
 
 ## References
 CLEAResize was written referencing the following webpages:
-* [Gamma error in picture scaling](http://www.4p8.com/eric.brasseur/gamma.html) by Eric Brasseur
-* [Photoshop で【本当に】美しくリサイズする「ガンマ: 1.0 縮小法」 | 亜細亜ノ蛾](http://asiamoth.com/mt/archives/2011-02/19_2357.php) by asiamoth (Japanese language)
+* [Gamma error in picture scaling](http://www.ericbrasseur.org/gamma.html) by Eric Brasseur
+* [Photoshop で【本当に】美しくリサイズする「ガンマ: 1.0 縮小法」 | 亜細亜ノ蛾](https://asiamoth.com/201102192357/) by asiamoth (Japanese language)
