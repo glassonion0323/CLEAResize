@@ -93,9 +93,9 @@
     CLEAResizeは以下のページを参考に作成されました。
 
     「Gamma error in picture scaling」 Eric Brasseurさん (英語)
-    http://www.4p8.com/eric.brasseur/gamma.html
+    http://www.ericbrasseur.org/gamma.html
 
     「Photoshop で【本当に】美しくリサイズする「ガンマ: 1.0 縮小法」 |
     亜細亜ノ蛾」 asiamothさん
-    http://asiamoth.com/mt/archives/2011-02/19_2357.php
+    https://asiamoth.com/201102192357/
 
