@@ -26,7 +26,7 @@
     C:\Program Files\Adobe\Adobe Photoshop CS5 (64 Bit)\Presets\Scripts
     If you get the message "Destination Folder Access Denied", click
     "Continue".
-2.  Restart Photoshop and choose File \> Automate. You will find CLEAResize
+2.  Restart Photoshop and choose File > Automate. You will find CLEAResize
     added to the menu.
     (CLEAResize will be grayed out if no documents are opened.)
 
@@ -36,7 +36,8 @@
     Open a image that you want to resize with Photoshop and select CLEAResize
     from Files > Automate menu.
     CLEAResize's main window will appear.
-    Input the width, height, or ratio you want to resize to, and click OK.
+    Input the width, height, or ratio that you want to resize to, and click
+    OK.
 
   * "Darker" option
     CLEAResize retains colors of original images better than usual bicubic
