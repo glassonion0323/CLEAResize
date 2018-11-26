@@ -1,6 +1,6 @@
 ==============================================================================
             CLEAResize
-            A Moiré-free Image Resizing Script for Photoshop
+            A Moiré-Free Image Resizing Script for Photoshop
             https://github.com/glassonion0323/CLEAResize
 ==============================================================================
 
@@ -26,7 +26,7 @@
     C:\Program Files\Adobe\Adobe Photoshop CS5 (64 Bit)\Presets\Scripts
     If you get the message "Destination Folder Access Denied", click
     "Continue".
-2.  Restart photoshop and choose File \> Automate. You will find CLEAResize
+2.  Restart Photoshop and choose File \> Automate. You will find CLEAResize
     added to the menu.
     (CLEAResize will be grayed out if no documents are opened.)
 
@@ -41,10 +41,10 @@
   * "Darker" option
     CLEAResize retains colors of original images better than usual bicubic
     resizing.
-    This characteristic, however, can lead to a unexpectedly whiter result in
-    some cases; for example, when resizing a halftone artwork, which each dots
-    are reduced in size on purpose to cancel out the influence of ink
-    spreading (dot gain) during the printing process.
+    This characteristic, however, can lead to a result that is whiter than
+    your intention in some cases; for example, when resizing a halftone
+    artwork, which each dots are reduced in size on purpose to cancel out the
+    influence of ink spreading (dot gain) during the printing process.
     By checking "Darker (simulate dot gain)" option, CLEAResize performs a
     simple simulation of dot gain to get darker result that resembles to the
     printout.
@@ -54,8 +54,8 @@
 ----------------------------------------
   * CLEAResize can not remove moiré that already exists before resizing.
   * Though CLEAResize is suitable for making monitor displaying images from
-    printing data, it is not fit to make printing halftone data resizing
-    another halftone data.
+    printing data, it is not fit to make halftone images for printing by
+    resizing the original halftone images.
   * CLEAResize can not avoid moiré that occurs in Smart Objects. If you get
     moiré in Smart Objects, rasterize them before executing CLEAResize.
 
