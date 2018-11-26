@@ -55,10 +55,10 @@ If you get the message "Destination Folder Access Denied", click "Continue".
 (CLEAResize will be grayed out if no documents are opened.)
 
 ## How to Use
-Open a image that you want to resize with Photoshop and select CLEAResize from Files > Automate menu.  
+Open a image that you want to resize with Photoshop and select CLEAResize from Files \> Automate menu.  
 <img alt="The main window" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/clearesizedialog.png" />  
 The window above will appear.  
-Input the width, height, or ratio you want to resize to, and click OK.
+Input the width, height, or ratio that you want to resize to, and click OK.
 
 ### "Darker" option
 As you can see in examples above, CLEAResize retains colors of original images better than usual bicubic resizing.  
