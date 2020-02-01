@@ -55,7 +55,7 @@ If you get the message "Destination Folder Access Denied", click "Continue".
 (CLEAResize will be grayed out if no documents are opened.)
 
 ## How to Use
-Open a image that you want to resize with Photoshop and select CLEAResize from Files \> Automate menu.  
+Open an image that you want to resize with Photoshop and select CLEAResize from Files \> Automate menu.  
 <img alt="The main window" src="https://raw.githubusercontent.com/wiki/glassonion0323/CLEAResize/images/clearesizedialog.png" />  
 The window above will appear.  
 Input the width, height, or ratio that you want to resize to, and click OK.
@@ -72,6 +72,8 @@ By checking "Darker (simulate dot gain)" option, CLEAResize performs a simple si
 * CLEAResize can not avoid moiré that occurs in Smart Objects. If you get moiré in Smart Objects, rasterize them before executing CLEAResize.
 
 ## Change Log
+* Ver. 1.0.4 (Feb. 01, 2020)  
+Fixed an issue that prevented the execution of blurring when the option "Scale layer styles" is not selected.
 * Ver. 1.0.3 (Mar. 19, 2016)  
 Added blurring before resizing to a smaller size than 1/4 of the original.  
 This blurring is so weak that downscaled images will seem to be nothing differrent in most cases, but it prevents moire on some images effectively.

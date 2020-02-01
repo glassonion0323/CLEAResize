@@ -7,21 +7,25 @@
 */
 
 ////////////////////////////////////////////////////////////
-// CLEAResize 1.0.3
+// CLEAResize 1.0.4
 //   A Moiré-free Image Resizing Script for Photoshop
 //
 // History
-//   Ver. 1.0.0                                Sep. 06, 2015
-//      * Initial release
-//   Ver. 1.0.1                                Sep. 07, 2015
-//      * Licensed under CC0
-//   Ver. 1.0.2                                Sep. 07, 2015
-//      * Fixed TEXT_VERSION
+//   Ver. 1.0.4                                Feb. 01, 2020
+//      * Fixed an issue that prevented the execution of
+//        blurring when the option "Scale layer styles" is
+//        not selected.
 //   Ver. 1.0.3                                Mar. 19, 2016
 //      * Added blurring before downscaling.
 //        This blurring is so weak that downscaled images
 //        will seem to be nothing differrent in most cases,
 //        but it prevents moire effectively.
+//   Ver. 1.0.2                                Sep. 07, 2015
+//      * Fixed TEXT_VERSION
+//   Ver. 1.0.1                                Sep. 07, 2015
+//      * Licensed under CC0
+//   Ver. 1.0.0                                Sep. 06, 2015
+//      * Initial release
 //
 // License
 //   CLEAResize.jsx is licensed under the Creative Commons
@@ -47,7 +51,7 @@ $.localize = true;
 
 // Script name and the version
 const   TEXT_SCRIPT_NAME            = "CLEAResize";
-const   TEXT_VERSION                = "1.0.3";
+const   TEXT_VERSION                = "1.0.4";
 const   TEXT_NAME_AND_VERSION       = TEXT_SCRIPT_NAME + " " + TEXT_VERSION;
 
 // Captions
@@ -554,7 +558,9 @@ function execResize() {
     // Get the name of color profile
     var profName    = doc.colorProfileName;
 
-    if (resizeStyles == true || simulateDotGain == true) {
+    if ((resizeStyles == true)                          ||  // If resizing of layer styles,
+        (simulateDotGain == true && sizeRatio < 1)      ||  // dot gain simulation, or
+        (simulateDotGain == false && iterationNum > 1)) {   // blurring will be performed
         showAllLayers(doc);
     }
 
@@ -638,8 +644,8 @@ function execResize() {
         execResizeStyles(doc, sizeRatio);
     }
 
-    if (resizeStyles == true || simulateDotGain == true) {
-        // Restore layer visibility
+    if (layerArray.length > 0) {
+        // Restore properties of layers if showAllLayers() has been called
         doc.activeLayer = orgActiveLayer;
         restoreLayersProperties();
     }
