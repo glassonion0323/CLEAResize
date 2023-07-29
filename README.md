@@ -72,6 +72,8 @@ By checking "Darker (simulate dot gain)" option, CLEAResize performs a simple si
 * CLEAResize can not avoid moiré that occurs in Smart Objects. If you get moiré in Smart Objects, rasterize them before executing CLEAResize.
 
 ## Change Log
+* Ver. 1.0.5 (Jul. 28, 2023)  
+Fixed an error that occured on Photoshop version 24.7.0 when the only layer is the background and the checkbox "Scale layer styles" is checked.
 * Ver. 1.0.4 (Feb. 01, 2020)  
 Fixed an issue that prevented the execution of blurring when the option "Scale layer styles" is not selected.
 * Ver. 1.0.3 (Mar. 19, 2016)  

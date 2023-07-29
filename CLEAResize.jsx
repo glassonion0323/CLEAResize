@@ -11,6 +11,10 @@
 //   A Moiré-free Image Resizing Script for Photoshop
 //
 // History
+//   Ver. 1.0.5                                Jul. 28, 2023
+//      * Fixed an error that occured on Photoshop version
+//        24.7.0 when the only layer is the background and
+//        the checkbox "Scale layer styles" is checked.
 //   Ver. 1.0.4                                Feb. 01, 2020
 //      * Fixed an issue that prevented the execution of
 //        blurring when the option "Scale layer styles" is
@@ -51,7 +55,7 @@ $.localize = true;
 
 // Script name and the version
 const   TEXT_SCRIPT_NAME            = "CLEAResize";
-const   TEXT_VERSION                = "1.0.4";
+const   TEXT_VERSION                = "1.0.5";
 const   TEXT_NAME_AND_VERSION       = TEXT_SCRIPT_NAME + " " + TEXT_VERSION;
 
 // Captions
@@ -778,8 +782,14 @@ function execResizeStyles(obj, sizeRatio) {
     ref.putEnumerated(charIDToTypeID("Lyr "), charIDToTypeID("Ordn"), charIDToTypeID("Trgt"));
     // Loop all layers in obj
     for (searchCnt = 0; searchCnt < obj.artLayers.length; searchCnt++) {
+        try {
+            desc1 = executeActionGet(ref);
+        }
+        catch (e) {
+            // On Photoshop version 24.7.0, executeActionGet() fails when the only layer is the background
+            continue;
+        }
         doc.activeLayer = obj.artLayers[ searchCnt ];
-        desc1 = executeActionGet(ref);
 
         if (desc1.hasKey(charIDToTypeID("Lefx")) == true) {
             // Selected layer has layer styles
